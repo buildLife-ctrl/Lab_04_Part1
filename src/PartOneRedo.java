@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 public class PartOneRedo {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(in);
         int intOperandA = 2;
         int intOperandB = 3;
         int intSum;
@@ -21,36 +23,36 @@ public class PartOneRedo {
 
         //integers
         intSum = intOperandA + intOperandB;
-        System.out.println("The sum of " + intOperandA + " and " + intOperandB + " is " + intSum + ".");
+        out.println("The sum of " + intOperandA + " and " + intOperandB + " is " + intSum + ".");
 
         intDifference = intOperandB - intOperandA;
-        System.out.println("The difference of " + intOperandB + " and " + intOperandA + " is " + intDifference + ".");
+        out.println("The difference of " + intOperandB + " and " + intOperandA + " is " + intDifference + ".");
 
         intProduct = intOperandA * intOperandB;
-        System.out.println("The product of " + intOperandB + " and " + intOperandA + " is " + intProduct + ".");
+        out.println("The product of " + intOperandB + " and " + intOperandA + " is " + intProduct + ".");
 
         intQuotient = intOperandB / intOperandA;
-        System.out.println("The quotient of " + intOperandB + " and " + intOperandA + " is " + intQuotient + ".");
+        out.println("The quotient of " + intOperandB + " and " + intOperandA + " is " + intQuotient + ".");
 
         intModulo = intOperandB % intOperandA;
-        System.out.println("The modulo of " + intOperandB + " and " + intOperandA + " is " + intModulo + ".");
+        out.println("The modulo of " + intOperandB + " and " + intOperandA + " is " + intModulo + ".");
 
-        System.out.println(" ");
+        out.println(" ");
 
         //double
         doubleSum = doubleOperandA + doubleOperandB;
-        System.out.println("The sum of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum + ".");
+        out.println("The sum of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum + ".");
 
         doubleDifference = doubleOperandB - doubleOperandA;
-        System.out.println("The difference of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleDifference + ".");
+        out.println("The difference of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleDifference + ".");
 
         doubleProduct = doubleOperandA * doubleOperandB;
-        System.out.println("The product of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleProduct + ".");
+        out.println("The product of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleProduct + ".");
 
         doubleQuotient = doubleOperandB / doubleOperandA;
-        System.out.println("The quotient of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleQuotient + ".");
+        out.println("The quotient of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleQuotient + ".");
 
         doubleModulo = doubleOperandB % doubleOperandA;
-        System.out.println("The modulo of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleModulo + ".");
+        out.println("The modulo of " + doubleOperandB + " and " + doubleOperandA + " is " + doubleModulo + ".");
     }
 }
