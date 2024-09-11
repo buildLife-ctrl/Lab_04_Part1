@@ -5,19 +5,19 @@ public class PartOneRedo {
         Scanner scan = new Scanner(System.in);
         int intOperandA = 2;
         int intOperandB = 3;
-        int intSum = 0;
-        int intDifference = 0;
-        int intProduct = 0;
-        int intQuotient = 0;
-        int intModulo = 0;
+        int intSum;
+        int intDifference;
+        int intProduct;
+        int intQuotient;
+        int intModulo;
 
         double doubleOperandA = 2;
         double doubleOperandB = 3;
-        double doubleSum = 0;
-        double doubleProduct = 0;
-        double doubleDifference = 0;
-        double doubleQuotient = 0;
-        double doubleModulo = 0;
+        double doubleSum;
+        double doubleProduct;
+        double doubleDifference;
+        double doubleQuotient;
+        double doubleModulo;
 
         //integers
         intSum = intOperandA + intOperandB;
